@@ -1,0 +1,2 @@
+module ApplicationRenewalsHelper
+end

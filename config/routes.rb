@@ -54,4 +54,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  root 'application#hello'
+  get '/renewal' => 'application_renewals#app_renewals'
 end
