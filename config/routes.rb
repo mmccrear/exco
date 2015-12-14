@@ -56,4 +56,7 @@ Rails.application.routes.draw do
   #   end
   root 'application#hello'
   get '/renewal' => 'application_renewals#app_renewals'
+  get '/instructorapp' => 'instructor_app#instructor_app_form'
+  post '/instructorapp' => 'instructor_app#update'
+
 end
